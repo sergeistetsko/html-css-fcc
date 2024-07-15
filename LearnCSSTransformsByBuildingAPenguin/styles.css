@@ -82,9 +82,33 @@ body {
     height: 45%;
     background-color: gray;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 25%;
+    border-radius: 0% 0% 100% 100%;
+    opacity: 70%;
   }
+
+  .face {
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    border-radius: 70% 70% 60% 60%;
+    position: absolute;
+    top: 15%;
+}
+
+.face.left {
+  position: absolute;
+  left: 5%;
+  /* Other styling properties */
+}
+
+.face.right {
+  position: absolute;
+  right: 5%;
+  /* Other styling properties */
+}
+
   
   
   
